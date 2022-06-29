@@ -11,7 +11,8 @@ The easiest way to deploy this Bot
 
 <h3 align="center">𝙺𝙻𝙸𝙺 𝚃𝙾𝙼𝙱𝙾𝙻 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷 𝙸𝙽𝙸 𝚄𝙽𝚃𝚄𝙺 𝙳𝙴𝙿𝙻𝙾𝚈 𝙳𝙸 𝚆𝙴𝙱 𝙷𝙴𝚁𝙾𝙺𝚄
 
-      
+ 
+     
 <div>
     <a href="https://heroku.com/deploy?template=https://github.com/ArmanGG01/KARMAN-PYROGRAM"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
