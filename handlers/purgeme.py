@@ -20,7 +20,7 @@ async def purgeme(client: Client, message: Message):
                     print(msg_id)
                     if client.get_messages(chat_id , msg_id).from_user.id == client.get_users("me").id:
                         await client.delete_messages(chat_id , msg_id)
-                        print("Zaid")
+                        print("Arman")
                         number=number-1
                     msg_id=msg_id-1
                 except Exception as e:
