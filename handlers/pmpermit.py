@@ -7,14 +7,14 @@ from main import SUDO_USERS as Adminsettings, LOG_GROUP
 from handlers.help import *
 from main import ALIVE_PIC
 
-Alive_msg = f"𝐙𝐚𝐢𝐝 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐨𝐧 🔱 \n\n"
+Alive_msg = f"👑 𝙺𝙰𝚁𝙼𝙰𝙽-𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 👑 \n\n"
 Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
 Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
 Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
-Alive_msg += f"► Rᴇᴘᴏ : [Gɪᴛʜᴜʙ](https://GitHub.com/Itz-Zaid/ZAID-USERBOT) \n"
-Alive_msg += f"► Sᴜᴘᴘᴏʀᴛ : [Jᴏɪɴ.](https://t.me/Superior_Support) \n"
-Alive_msg += f"► Cʜᴀɴɴᴇʟ : [Jᴏɪɴ.](https://t.me/Superior_Bots) \n"
-Alive_msg += f"► **Nᴏᴛᴇ** : Dᴏɴ'ᴛ Sᴘᴀᴍ Hᴇʀᴇ Eʟꜱᴇ Gᴇᴛ Bʟᴏᴄᴋᴇᴅ Pʟᴢ Wᴀɪᴛ Mʏ Mᴀꜱᴛᴇʀ Wɪʟʟ Rᴇꜱᴘᴏɴꜱᴇ Yᴏᴜ Sᴏᴏɴ \n"
+Alive_msg += f"► Rᴇᴘᴏ : [Gɪᴛʜᴜʙ](https://GitHub.com/ArmanGG01/KARMAN-PYROGRAM) \n"
+Alive_msg += f"► 𝙶𝚁𝙾𝚄𝙿 : [Jᴏɪɴ.](https://t.me/obrolansuar) \n"
+Alive_msg += f"► 𝙲ʜᴀɴɴᴇʟ : [Jᴏɪɴ.](https://t.me/StoryArman) \n"
+Alive_msg += f"► **Nᴏᴛᴇ** : 𝙹𝙰𝙽𝙶𝙰𝙽 𝚂𝙿𝙰𝙼 𝙻𝙰𝙷 𝙺𝙾𝙽𝚃𝙾𝙻 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙰𝙼𝙿𝙴𝙺 𝙰𝙽𝙰𝙺 𝙷𝙰𝚁𝙰𝙼 𝙸𝙽𝙸 𝙱𝙰𝙻𝙰𝚂 𝙿𝙴𝚂𝙰𝙽 𝙺𝙰𝚄 𝚈𝙰 𝙰𝙽𝙹𝙸𝙽𝙷 \n"
 Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
 
 @Client.on_message(~filters.me & filters.private & ~filters.bot & filters.incoming , group = 69)
