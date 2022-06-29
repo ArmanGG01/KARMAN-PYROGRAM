@@ -1,4 +1,4 @@
-aiohtt
+aiohttp
 pyrogram==1.4.15
 requests
 dnspython
