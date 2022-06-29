@@ -1,6 +1,6 @@
 from pyrogram import filters
 from traceback import format_exc
-from typing import Tupl
+from typing import Tuple
 
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
