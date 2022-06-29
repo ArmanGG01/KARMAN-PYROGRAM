@@ -39,4 +39,3 @@ async def shell(client: Client, message: Message):
     await message.edit(text)
     cmd_obj.kill()
 
-

@@ -1,7 +1,8 @@
 from pyrogram import filters
 from traceback import format_exc
 from typing import Tuple
-
+import asyncio
+import random
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import (
@@ -9,8 +10,12 @@ from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
     Message)
+from handlers.help import *
 from helpers.SQL.gbandb import gban_info, gban_list, gban_user, ungban_user
 from helpers.SQL.gmutedb import gmute, is_gmuted, ungmute
+from helpers.SQL.rraid import zaidub_info, rzaid, runzaid
+from handlers.cache.data import *
+from config import SUDO_USERS
 
 
 async def iter_chats(client: Client):
@@ -227,6 +232,18 @@ async def watch(client: Client, message: Message):
     if not message.from_user:
         return
     user = message.from_user.id
+    zaid = random.choice(RAID)
+    if int(user) in VERIFIED_USERS:
+        return
+    elif int(user) in SUDO_USERS:
+        return
+    if int(message.chat.id) in GROUP:
+        return
+    if await zaidub_info(user):
+        try:
+            await message.reply_text(zaid)
+        except:
+            return
     if await is_gmuted(user):
         try:
             await message.delete()
@@ -286,3 +303,17 @@ async def gbroadcast(client: Client, message: Message):
     await msg_.edit(
         f"`Message Sucessfully Send To {chat_len-failed} Chats! Failed In {failed} Chats.`"
     )
+
+
+
+
+add_command_help(
+    "global",
+    [
+        [".gmute", "To mute someone Globally."],
+        [".ungmute", "To Unmute someone Globally."],
+        [".gban", "To Ban someone Globally."],
+        [".ungmute", "To Unban someone Globally."],
+        [".gcast", "To message Globally."],
+    ],
+)
