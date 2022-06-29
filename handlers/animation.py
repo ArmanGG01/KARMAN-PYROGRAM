@@ -226,3 +226,35 @@ async def timer_blankx(client: Client, message: Message):
   await asyncio.sleep(1)
  await asyncio.sleep(1) 
  await message.edit("`Tesla Wireless Charging (beta) Completed...\nDevice Detected: Nokia 1100 (Space Grey Varient)\nBattery Percentage:` [100%](https://telegra.ph/file/a45aa7450c8eefed599d9.mp4) ", link_preview=True)
+
+
+
+
+ add_command_help(
+    "animation",
+    [
+        [".brain", "Animation Brain 🧠."],
+        [".bomb", "Animation Bomb."],
+        [
+            ".kill",
+            " To kill Someone randomly",
+        ],
+        [
+            ".wtf",
+            "Wtf animation",
+        ],
+        [
+            ".ding",
+            "Get Dong",
+        ],
+        [
+            ".ganstar",
+            "Animation Gangster",
+        ],
+        [
+            ".charge",
+            " Tesla animation charging",
+        ],
+
+    ],
+ )
