@@ -1,4 +1,4 @@
-git clone https://github.com/ITZ-ZAID/ZAID-USERBOT Zaid
-cd Zaid
+git clone https://github.com/ArmanGG01/KARMAN-PYROGRAM Arman
+cd Arman
 pip3 install -U -r requirements.txt
 python3 main.py
