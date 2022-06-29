@@ -46,7 +46,7 @@ async def update(client: Client, message: Message):
     HEROKU_API = HEROKU_API
 
     REPO_ = environ.get(
-    "UPSTREAM_REPO", "https://github.com/ITZ-ZAID/ZAID-USERBOT"
+    "UPSTREAM_REPO", "https://github.com/ArmanGG01/KARMAN-PYROGRAM"
     )
 
     U_BRANCH = "main"
@@ -58,7 +58,7 @@ async def update(client: Client, message: Message):
         repo = Repo()
     except GitCommandError:
         return await msg_.edit(
-            "`Invalid Git Command. Please Report This Bug To @Superior_Support`"
+            "`Invalid Git Command. Please Report This Bug To @obrolansuar`"
         )
     except InvalidGitRepositoryError:
         repo = Repo.init()
