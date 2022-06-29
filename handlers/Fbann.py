@@ -1,5 +1,5 @@
 # 
-import asyncio
+import asynci
 import os
 import logging
 from pyrogram import Client, filters
