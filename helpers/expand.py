@@ -1,4 +1,4 @@
-import aiohtp
+import aiohttp
 
 
 async def expand_url(url):
