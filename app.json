@@ -1,12 +1,48 @@
 {
-    "name": "Zaid-Userbot",
+    "name": "KARMAN-PYROGRAM",
     "description": "A First Telegram Userbot Project With Multi Client Based On PyroGram!",
     "logo": "https://telegra.ph/file/9563b48195f2f1c62cc5e.jpg",
-    "repository": "https://github.com/Itz-Zaid/Zaid-Userbot",
+    "repository": "https://github.com/ArmanGG01/KARMAN-PYROGRAM",
     "env": {
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": true
+            "required": True
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
+        },
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": False
         },
         "API_ID": {
             "description": "telegram api id here",
