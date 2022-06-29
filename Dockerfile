@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs17
+FROM nikolaik/python-nodejs:python3.10-nodejs1
 FROM python:3.10.4-slim-buster
 RUN apt update && apt upgrade -y
 RUN apt-get -y install git
