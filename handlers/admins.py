@@ -1,4 +1,4 @@
-import tie
+import time
 
 from pyrogram import filters, Client
 from pyrogram.errors import UserAdminInvalid
