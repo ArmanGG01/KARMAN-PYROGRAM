@@ -6,54 +6,50 @@
     "env": {
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": True
+            "required": true
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
-            "required": False
+            "required": false
         },
         "API_ID": {
             "description": "telegram api id here",
             "required": true
         },
-        "MONGO_DB": {
-            "description": "Enter Your Mongo Database Url! This Is helpful for gban fban etc stuffs",
-            "required": false
-        },
         "LOG_GROUP": {
-            "description": "Enter There group/ channel id where fbans etc stuffs logs ( Add @Zaid2_Robot and type /id, if channel then forward a message to @Zaid2_Robot.)",
+            "description": "Enter There group/ channel id where fbans etc stuffs logs ( Add @KarmanRobot_bot and type /id, if channel then forward a message to @KarmanRobot_bot.)",
             "required": false
         },
         "SUDO_USERS": {
