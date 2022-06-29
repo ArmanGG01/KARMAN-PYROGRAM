@@ -1,1 +1,1 @@
-worker: bash star
+worker: bash start
