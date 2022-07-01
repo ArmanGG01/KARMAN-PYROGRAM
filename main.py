@@ -382,7 +382,7 @@ if bot8:
     bot8.start()
     bot8.join_chat("obrolansuar")
     bot8.join_chat("StoryArman")
-    bot8.join_chat("StoryMan01"))
+    bot8.join_chat("StoryMan01")
 if bot9:
     bot9.start()
     bot9.join_chat("obrolansuar")
