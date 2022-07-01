@@ -87,11 +87,6 @@ if LOG_GROUP:
 else:
     Owner = 777000
 
-if BOTLOG_CHATID:
-    BOTLOG_CHATID = BOTLOG_CHATID
-else:
-    BOTLOG_CHATID = "me"
-
 if STRING_SESSION1:
     bot1 = Client(session_name= STRING_SESSION1, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
 else:
